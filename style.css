@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Manrope:wght@200..800&display=swap');
+
+
 *{
    
     margin: 0%;
@@ -5,9 +8,11 @@
 }
 body{
     border:2px solid green;
-    color: #44FFA1;
+    /* color: #44FFA1; */
     /* color:#24053E; */
     /* color: #584D62; */
-    color:#FCF8FF;
+    /* color:#FCF8FF; */
+    /* font-family: "Manrope"; */
+    /* font-family: "Fraunces"; */
 
 }
