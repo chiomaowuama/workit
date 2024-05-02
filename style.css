@@ -202,16 +202,16 @@ header{
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 /* header */
 header{
-    border:2px solid blue;
+    /* border:2px solid blue; */
     background-color: #24053E;
+    height:fit-content;
 }
 .logoandapply{
-    border:2px solid red;
     padding:3%;
     display:flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -241,6 +241,149 @@ header{
 .logoandapply p:hover{
         color: #44FFA1;
 
+}
+/* the body */
+.header-text{
+    display:flex;
+    text-align: center;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    gap:3rem;
+    height: 80%;
+    position: relative;
+    padding-bottom: 10%;
+
+}
+.header-text p{
+    width: 60%;
+    font-family: "fraunces";
+    font-weight: 600;
+    font-size: 60px;
+    color:white;
+    margin-top: 10%;
+}
+.header-text button{
+    font-size: 25px;
+    padding: 3% 3%;
+    background-color: #44FFA1;
+    color:#24053E;
+    font-weight: 700;
+    border:none;
+}
+.header-text button:hover{
+    border:4px solid#44FFA1;
+    color: #44FFA1;
+    background: #24053E;
+}
+/* svgs */
+.the-left{
+    position: absolute;
+    left:-80px;
+    top:34px;
+    width:50x;
+}
+.the-right{
+    position: absolute;
+    right:2px;
+    bottom:px;
+}
+.footersvg svg{
+    fill:#584D62;
+}
+.footersvg svg:hover{
+    fill:#24053E;
+}
+/* the phonediv */
+
+.phone-section{
+    /* border:2px solid red; */
+    margin-top: -1px;
+}
+.the-phone-div{
+    background-color: #24053E;
+    padding: 8%;
+    position: relative;
+ 
+}
+/* the curve */
+.custom-shape-divider-bottom-1714643086 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1714643086 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 87px;
+}
+
+.custom-shape-divider-bottom-1714643086 .shape-fill {
+    fill: #FFFFFF;
+}
+.the-phone-div img{
+    position: absolute;
+    width:535px;
+    top:-12%;
+    left: 17%;
+}
+/* textand number */
+.textandnum-div{
+    width:85%;
+    margin-top: 30%;
+    margin-bottom: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* margin: 15% auto; */
+}
+.textandnum{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    font-family: "Fraunces";
+
+}
+.the-number{
+    border:1px solid black;
+    border-radius: 100%;
+    width:50px;
+    padding: 5px;
+    text-align: center;
+    font-size: 27px;
+    color: #24053E;
+    align-self:center;
+}
+.both-text{
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: start;
+    gap:2rem;
+    font-family: "Fraunces";
+}
+.textandnum h3{
+    font-size: 35px;
+    font-weight: 500;
+    color: #24053E;
+}
+.the-text{
+    font-size:18px ;
+    text-align:left;
+    color: #24053E;
+    width:100%;
+    font-weight: 500;
+    font-family: "manrope";
 }
 }
 /* phone */
@@ -348,6 +491,7 @@ header{
 
 .phone-section{
     /* border:2px solid red; */
+    margin-top: -1px;
     border:none;
 }
 .the-phone-div{
