@@ -66,8 +66,8 @@ header{
     flex-direction: column;
     gap:2rem;
     height: 80%;
-    border:2px solid red;
-    position: relative;
+
+    /* position: relative; */
     /* padding-bottom: 10%; */
 
 }
@@ -105,7 +105,6 @@ header{
     bottom:10px;
 }
 .footersvg svg{
-    border:2px solid green;
     fill:#584D62;
 }
 .footersvg svg:hover{
@@ -114,22 +113,54 @@ header{
 /* the phonediv */
 
 .phone-section{
-    border:2px solid red;
+    /* border:2px solid red; */
 }
 .the-phone-div{
-    border:2px solid green;
-    position: relative;
     background-color: #24053E;
     padding: 5%;
-    
+    position: relative;
  
 }
-.the-phone-div img{
-    border:2px solid yellow;
+/* the curve */
+.custom-shape-divider-bottom-1714643086 {
     position: absolute;
-    top:-150px;
-    left: 100px;
+    bottom: 0;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
 }
+
+.custom-shape-divider-bottom-1714643086 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 2.3px);
+    height: 77px;
+}
+
+.custom-shape-divider-bottom-1714643086 .shape-fill {
+    fill: #FFFFFF;
+}
+.the-phone-div img{
+    position: absolute;
+    width:635px;
+    top:-100%;
+    left: 28%;
+}
+/* textand number */
+.textandnum-div{
+    border:2px solid red; 
+    width:90%;
+    margin-top: 20%;
+    margin-bottom: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 2rem;
+    /* margin: 15% auto; */
+}
+
 /* tab */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 /* header */
