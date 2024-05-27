@@ -79,6 +79,12 @@ header{
     color:white;
     margin-top: 1%;
 }
+.header-text p span{
+    border:4px solid #44FFA1;
+    border-top:none;
+    border-left:none;
+    border-right:none
+}
 .header-text button{
     font-size: 18px;
     padding: 1.5% 2%;
